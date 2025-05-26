@@ -1,6 +1,7 @@
 Subtitle Sync Checker Model
 
 📝 Description
+
 Subtitle Sync Checker is a deep learning-based tool designed to automatically verify whether subtitles are synchronized with the spoken audio in video files. It uses a hybrid multimodal neural network that analyzes both the visual frames (to detect subtitle overlays) and the audio track (to extract speech features). The model is optimized for AMD GPUs and supports both CPU and GPU processing. This project is ideal for anime, movies, or any video content where subtitle accuracy is crucial.
 
 Visual branch: Processes 32 evenly spaced video frames (224×224 pixels) per sample.
@@ -12,6 +13,7 @@ Hybrid loss function: Balances audio and visual cues for improved accuracy.
 Performance: Supports batch processing, memory monitoring, and mixed precision for fast and stable training and inference.
 
 🚀 Installation
+
 Requirements:
 
 Python 3.8+
@@ -24,7 +26,6 @@ librosa
 
 ffmpeg (must be installed and in your PATH)
 
-See requirements.txt for full dependency list.
 
 Clone the repository:
 
